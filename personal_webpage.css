@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+ }
+
+ body{
+    margin: 5;
+    background-color: rgb(242, 228, 228);
+    padding: 10px;
+    
+ }
+/* container */
+.container {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    
+ }
+
+/*GRID*/
+.grid{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(220px, auto);
+h1 {
+        text-decoration: underline;
+        text-decoration-thickness: auto;  
+    }
+}
+.col-md-7 {
+    background-image: url('Venezuela_woods.jpg');
+}
+
+/*Hover effects*/
+h2:hover {
+    transform: scale(1.1);
+  }
+
+h4:hover {
+    transform: scale(1.1);
+  }
